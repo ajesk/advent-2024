@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85f3d225-10a2-4da7-a41a-698debb0729f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/four/CeresSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/four/IsAMasX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/four/SearchFromSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/four/CeresSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/four/day4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/four/day4test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="corretto-21" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2pcNMlTcPefCveNt2wbZyL6pR2s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CeresSearchTest.executor": "Run",
+    "JUnit.CeresSearchTest.validateFirstProblem.executor": "Run",
+    "JUnit.CeresSearchTest.validateTestData.executor": "Run",
+    "JUnit.CeresSearchTest.validateTestDataPart2.executor": "Run",
+    "JUnit.ExecuteMulTest.testExtractions.executor": "Run",
+    "JUnit.ExtractMulTest.testExtractions.executor": "Run",
+    "JUnit.FileReaderTest.executor": "Run",
+    "JUnit.FileReaderTest.validateCorrectFile.executor": "Run",
+    "JUnit.FileReaderTest.validateFileThatDoesNotExistReturnsNothing.executor": "Run",
+    "JUnit.FileReaderTest.validateTestFileContainsLines.executor": "Run",
+    "JUnit.HistorianHysteriaTest.name.executor": "Run",
+    "JUnit.HistorianHysteriaTest.validateFirstProblem.executor": "Run",
+    "JUnit.HistorianHysteriaTest.validateFirstProblemPart2.executor": "Run",
+    "JUnit.HistorianHysteriaTest.validateTestDataPart2.executor": "Run",
+    "JUnit.IsASafeErrorCheckedReportTest.executor": "Run",
+    "JUnit.IsASafeErrorCheckedReportTest.negativeScenarios.[1] 1, 2, 7, 8, 9.executor": "Debug",
+    "JUnit.IsASafeErrorCheckedReportTest.positiveScenarios.[12] 1, 4, 3, 2, 1.executor": "Debug",
+    "JUnit.IsASafeErrorCheckedReportTest.positiveScenarios.executor": "Run",
+    "JUnit.IsASafeReportTest.executor": "Run",
+    "JUnit.IsASafeReportTest.somethingTest.[3] 7, 6, 4, 2, 1.executor": "Debug",
+    "JUnit.IsASafeReportTest.somethingTest.executor": "Run",
+    "JUnit.MullItOverTest.validateFirstProblem.executor": "Run",
+    "JUnit.MullItOverTest.validateFirstProblemPart2.executor": "Debug",
+    "JUnit.MullItOverTest.validateTestData.executor": "Run",
+    "JUnit.MullItOverTest.validateTestDataPart2.executor": "Run",
+    "JUnit.MultToggleTest.testExtractions.executor": "Debug",
+    "JUnit.RedNosedReportsTest.executor": "Run",
+    "JUnit.RedNosedReportsTest.validatePart1Data.executor": "Run",
+    "JUnit.RedNosedReportsTest.validatePart2Data.executor": "Run",
+    "JUnit.RedNosedReportsTest.validatePart2TestData.executor": "Run",
+    "JUnit.RedNosedReportsTest.validateTestData.executor": "Run",
+    "Maven.advent-2024 [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/aaron/IdeaProjects/advent-2024/src/test/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "terminal"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.acode.util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.acode.days.four" />
+      <recent name="io.acode.days.three" />
+      <recent name="io.acode.days.two" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CeresSearchTest.validateFirstProblemPart2">
+    <configuration name="CeresSearchTest.validateFirstProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.four" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.four.CeresSearchTest" />
+      <option name="METHOD_NAME" value="validateFirstProblem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CeresSearchTest.validateFirstProblemPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.four" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.four.CeresSearchTest" />
+      <option name="METHOD_NAME" value="validateFirstProblemPart2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CeresSearchTest.validateTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.four" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.four.CeresSearchTest" />
+      <option name="METHOD_NAME" value="validateTestData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CeresSearchTest.validateTestDataPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.four" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.four.CeresSearchTest" />
+      <option name="METHOD_NAME" value="validateTestDataPart2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MullItOverTest.validateFirstProblemPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.three.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.three" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.three.MullItOverTest" />
+      <option name="METHOD_NAME" value="validateFirstProblemPart2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CeresSearchTest.validateFirstProblemPart2" />
+        <item itemvalue="JUnit.CeresSearchTest.validateTestDataPart2" />
+        <item itemvalue="JUnit.CeresSearchTest.validateFirstProblem" />
+        <item itemvalue="JUnit.CeresSearchTest.validateTestData" />
+        <item itemvalue="JUnit.MullItOverTest.validateFirstProblemPart2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85f3d225-10a2-4da7-a41a-698debb0729f" name="Changes" comment="" />
+      <created>1733061357621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733061357621</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/util/FileReader.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/one/HistorianHysteria.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/one/HistorianHysteria.java</url>
+          <line>32</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/acode/days/two/IsASafeReportTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/two/IsASafeErrorCheckedReport.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/acode/days/three/ExtractMulTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/four/CeresSearch.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
