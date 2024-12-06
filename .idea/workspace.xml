@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f3d225-10a2-4da7-a41a-698debb0729f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/four/CeresSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/four/IsAMasX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/four/SearchFromSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/four/CeresSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/four/day4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/four/day4test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/five/FixAndTally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/five/IsValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/five/PageMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/five/PrintQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/five/PageOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/five/PrintQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/five/day5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/five/day5test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +41,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2pcNMlTcPefCveNt2wbZyL6pR2s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,6 +53,7 @@
   "keyToString": {
     "JUnit.CeresSearchTest.executor": "Run",
     "JUnit.CeresSearchTest.validateFirstProblem.executor": "Run",
+    "JUnit.CeresSearchTest.validateFirstProblemPart2.executor": "Run",
     "JUnit.CeresSearchTest.validateTestData.executor": "Run",
     "JUnit.CeresSearchTest.validateTestDataPart2.executor": "Run",
     "JUnit.ExecuteMulTest.testExtractions.executor": "Run",
@@ -75,6 +78,9 @@
     "JUnit.MullItOverTest.validateTestData.executor": "Run",
     "JUnit.MullItOverTest.validateTestDataPart2.executor": "Run",
     "JUnit.MultToggleTest.testExtractions.executor": "Debug",
+    "JUnit.PrintQueueTest.executor": "Run",
+    "JUnit.PrintQueueTest.validateFirstProblem.executor": "Run",
+    "JUnit.PrintQueueTest.validateTestData.executor": "Run",
     "JUnit.RedNosedReportsTest.executor": "Run",
     "JUnit.RedNosedReportsTest.validatePart1Data.executor": "Run",
     "JUnit.RedNosedReportsTest.validatePart2Data.executor": "Run",
@@ -82,6 +88,7 @@
     "JUnit.RedNosedReportsTest.validateTestData.executor": "Run",
     "Maven.advent-2024 [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
@@ -104,87 +111,87 @@
       <recent name="io.acode.util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.acode.days.five" />
       <recent name="io.acode.days.four" />
       <recent name="io.acode.days.three" />
       <recent name="io.acode.days.two" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CeresSearchTest.validateFirstProblemPart2">
-    <configuration name="CeresSearchTest.validateFirstProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PrintQueueTest.validateFirstProblemFixAndCountErrors">
+    <configuration name="PrintQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.acode.days.four.*" />
+          <option name="PATTERN" value="io.acode.days.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.four" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.four.CeresSearchTest" />
+      <option name="PACKAGE_NAME" value="io.acode.days.five" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintQueueTest.validateFirstProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.five" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
       <option name="METHOD_NAME" value="validateFirstProblem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CeresSearchTest.validateFirstProblemPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrintQueueTest.validateFirstProblemFixAndCountErrors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.acode.days.four.*" />
+          <option name="PATTERN" value="io.acode.days.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.four" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.four.CeresSearchTest" />
-      <option name="METHOD_NAME" value="validateFirstProblemPart2" />
+      <option name="PACKAGE_NAME" value="io.acode.days.five" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
+      <option name="METHOD_NAME" value="validateFirstProblemFixAndCountErrors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CeresSearchTest.validateTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrintQueueTest.validateTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.acode.days.four.*" />
+          <option name="PATTERN" value="io.acode.days.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.four" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.four.CeresSearchTest" />
+      <option name="PACKAGE_NAME" value="io.acode.days.five" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
       <option name="METHOD_NAME" value="validateTestData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CeresSearchTest.validateTestDataPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrintQueueTest.validateTestDataFixAndCountErrors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.acode.days.four.*" />
+          <option name="PATTERN" value="io.acode.days.five.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.four" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.four.CeresSearchTest" />
-      <option name="METHOD_NAME" value="validateTestDataPart2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MullItOverTest.validateFirstProblemPart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.acode.days.three.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.three" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.three.MullItOverTest" />
-      <option name="METHOD_NAME" value="validateFirstProblemPart2" />
+      <option name="PACKAGE_NAME" value="io.acode.days.five" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
+      <option name="METHOD_NAME" value="validateTestDataFixAndCountErrors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CeresSearchTest.validateFirstProblemPart2" />
-        <item itemvalue="JUnit.CeresSearchTest.validateTestDataPart2" />
-        <item itemvalue="JUnit.CeresSearchTest.validateFirstProblem" />
-        <item itemvalue="JUnit.CeresSearchTest.validateTestData" />
-        <item itemvalue="JUnit.MullItOverTest.validateFirstProblemPart2" />
+        <item itemvalue="JUnit.PrintQueueTest.validateFirstProblemFixAndCountErrors" />
+        <item itemvalue="JUnit.PrintQueueTest.validateTestDataFixAndCountErrors" />
+        <item itemvalue="JUnit.PrintQueueTest.validateFirstProblem" />
+        <item itemvalue="JUnit.PrintQueueTest.validateTestData" />
+        <item itemvalue="JUnit.PrintQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,11 +221,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/io/acode/util/FileReader.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/one/HistorianHysteria.java</url>
           <line>47</line>
@@ -251,6 +253,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/four/CeresSearch.java</url>
           <line>33</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/four/CeresSearch.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
