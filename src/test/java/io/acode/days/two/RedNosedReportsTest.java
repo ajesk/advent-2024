@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RedNosedReportsTest {
     @Test
     void validateTestData() {
-        RedNosedReports target = new RedNosedReports("day2test.txt");
+        RedNosedReports target = new RedNosedReports("two/day2test.txt");
 
         var result = target.findSafeReports();
         assertEquals(2, result);
@@ -15,7 +15,7 @@ public class RedNosedReportsTest {
 
     @Test
     void validatePart1Data() {
-        RedNosedReports target = new RedNosedReports("day2.txt");
+        RedNosedReports target = new RedNosedReports("two/day2.txt");
 
         var result = target.findSafeReports();
         assertEquals(218, result);
@@ -23,7 +23,7 @@ public class RedNosedReportsTest {
 
     @Test
     void validatePart2TestData() {
-        RedNosedReports target = new RedNosedReports("day2test.txt");
+        RedNosedReports target = new RedNosedReports("two/day2test.txt");
 
         var result = target.findErrorCheckedReports();
         assertEquals(4, result);
@@ -31,7 +31,7 @@ public class RedNosedReportsTest {
 
     @Test
     void validatePart2Data() {
-        RedNosedReports target = new RedNosedReports("day2.txt");
+        RedNosedReports target = new RedNosedReports("two/day2.txt");
 
         var result = target.findErrorCheckedReports();
         assertEquals(290, result);

@@ -8,7 +8,7 @@ public class HistorianHysteriaTest {
 
     @Test
     void validateTestData() {
-        HistorianHysteria target = new HistorianHysteria("day1test.txt");
+        HistorianHysteria target = new HistorianHysteria("one/day1test.txt");
 
         var result = target.totalDistance();
         assertEquals(11, result);
@@ -16,7 +16,7 @@ public class HistorianHysteriaTest {
 
     @Test
     void validateFirstProblem() {
-        HistorianHysteria target = new HistorianHysteria("day1.txt");
+        HistorianHysteria target = new HistorianHysteria("one/day1.txt");
 
         var result = target.totalDistance();
         assertEquals(1938424, result);
@@ -24,7 +24,7 @@ public class HistorianHysteriaTest {
 
     @Test
     void validateTestDataPart2() {
-        HistorianHysteria target = new HistorianHysteria("day1test.txt");
+        HistorianHysteria target = new HistorianHysteria("one/day1test.txt");
 
         var result = target.similarityScore();
         assertEquals(31, result);
@@ -32,7 +32,7 @@ public class HistorianHysteriaTest {
 
     @Test
     void validateFirstProblemPart2() {
-        HistorianHysteria target = new HistorianHysteria("day1.txt");
+        HistorianHysteria target = new HistorianHysteria("one/day1.txt");
 
         var result = target.similarityScore();
         assertEquals(22014209, result);

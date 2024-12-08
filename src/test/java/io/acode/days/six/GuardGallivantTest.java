@@ -35,6 +35,6 @@ public class GuardGallivantTest {
         GuardGallivant target = new GuardGallivant("six/day6.txt");
 
         var result = target.part2();
-        assertEquals(0, result);
+        assertEquals(1686, result);
     }
 }
