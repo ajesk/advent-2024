@@ -42,6 +42,6 @@ public class ResonantCollinearityTest {
         ResonantCollinearity target = new ResonantCollinearity("eight/real.txt", true);
 
         var result = target.findAntinodes();
-        assertEquals(0, result);
+        assertEquals(1174, result);
     }
 }

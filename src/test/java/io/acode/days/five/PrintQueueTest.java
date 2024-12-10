@@ -35,6 +35,6 @@ public class PrintQueueTest {
         PrintQueue target = new PrintQueue("five/day5.txt");
 
         var result = target.fixAndCountErrors();
-        assertEquals(0, result);
+        assertEquals(6004, result);
     }
 }
