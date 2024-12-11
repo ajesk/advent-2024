@@ -16,7 +16,7 @@ public class HistorianHysteriaTest {
 
     @Test
     void validateFirstProblem() {
-        HistorianHysteria target = new HistorianHysteria("one/day1.txt");
+        HistorianHysteria target = new HistorianHysteria("one/real.txt");
 
         var result = target.totalDistance();
         assertEquals(1938424, result);
@@ -32,7 +32,7 @@ public class HistorianHysteriaTest {
 
     @Test
     void validateFirstProblemPart2() {
-        HistorianHysteria target = new HistorianHysteria("one/day1.txt");
+        HistorianHysteria target = new HistorianHysteria("one/real.txt");
 
         var result = target.similarityScore();
         assertEquals(22014209, result);

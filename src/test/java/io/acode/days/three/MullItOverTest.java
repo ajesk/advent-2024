@@ -16,7 +16,7 @@ public class MullItOverTest {
 
     @Test
     void validateFirstProblem() {
-        MullItOver target = new MullItOver("three/day3.txt");
+        MullItOver target = new MullItOver("three/real.txt");
 
         var result = target.multiplication();
         assertEquals(188741603, result);
@@ -32,7 +32,7 @@ public class MullItOverTest {
 
     @Test
     void validateFirstProblemPart2() {
-        MullItOver target = new MullItOver("three/day3.txt");
+        MullItOver target = new MullItOver("three/real.txt");
 
         var result = target.startStop();
         assertEquals(67269798, result);

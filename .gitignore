@@ -3,6 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+real.txt
+
 ### IntelliJ IDEA ###
 .idea
 .idea/modules.xml

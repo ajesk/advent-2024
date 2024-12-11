@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85f3d225-10a2-4da7-a41a-698debb0729f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/five/FixAndTally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/five/IsValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/five/PageMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/five/PrintQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/five/PageOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/five/PrintQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/five/day5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/five/day5test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/acode/days/nine/AlternateFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/nine/AlternateFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/acode/days/nine/Expand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/acode/days/nine/Expand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/acode/days/five/PrintQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/five/PrintQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/acode/days/four/CeresSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/four/CeresSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/acode/days/nine/DiskFragmenterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/nine/DiskFragmenterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/acode/days/one/HistorianHysteriaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/one/HistorianHysteriaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/acode/days/six/GuardGallivantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/six/GuardGallivantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/acode/days/three/MullItOverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/three/MullItOverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/acode/days/two/RedNosedReportsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/acode/days/two/RedNosedReportsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/five/day5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/four/day4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/one/day1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/six/day6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/three/day3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/two/day2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +59,53 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AlternateFragmentTest.executor": "Run",
+    "JUnit.AlternateFragmentTest.name.[1] [-1, 1], [1, -1].executor": "Debug",
+    "JUnit.AlternateFragmentTest.name.[2] [0, -1, -1, 1, 1, 1], [0, -1, -1, 1, 1, 1].executor": "Debug",
+    "JUnit.AlternateFragmentTest.name.[3] [0, -1, -1, 1, 1], [0, 1, 1, -1, -1].executor": "Debug",
+    "JUnit.AlternateFragmentTest.name.executor": "Run",
+    "JUnit.BridgeRepairTest.executor": "Run",
+    "JUnit.BridgeRepairTest.validateFirstProblem.executor": "Run",
+    "JUnit.BridgeRepairTest.validateFirstProblemPart2.executor": "Run",
+    "JUnit.BridgeRepairTest.validateTestData.executor": "Run",
+    "JUnit.BridgeRepairTest.validateTestDataPart2.executor": "Run",
     "JUnit.CeresSearchTest.executor": "Run",
     "JUnit.CeresSearchTest.validateFirstProblem.executor": "Run",
     "JUnit.CeresSearchTest.validateFirstProblemPart2.executor": "Run",
     "JUnit.CeresSearchTest.validateTestData.executor": "Run",
     "JUnit.CeresSearchTest.validateTestDataPart2.executor": "Run",
+    "JUnit.DefragmentTest.name (1).executor": "Run",
+    "JUnit.DefragmentTest.name.executor": "Debug",
+    "JUnit.DiskFragmenterTest.executor": "Debug",
+    "JUnit.DiskFragmenterTest.validatePart1.executor": "Run",
+    "JUnit.DiskFragmenterTest.validatePart2.executor": "Run",
+    "JUnit.DiskFragmenterTest.validatePart2TestData.executor": "Run",
+    "JUnit.DiskFragmenterTest.validatePart2TestData2 (1).executor": "Run",
+    "JUnit.DiskFragmenterTest.validatePart2TestData2.[6] 1909091, 169.executor": "Debug",
+    "JUnit.DiskFragmenterTest.validatePart2TestData2.executor": "Run",
+    "JUnit.DiskFragmenterTest.validateTestData.executor": "Run",
     "JUnit.ExecuteMulTest.testExtractions.executor": "Run",
+    "JUnit.ExpandFormatTest.testBase.executor": "Debug",
     "JUnit.ExtractMulTest.testExtractions.executor": "Run",
     "JUnit.FileReaderTest.executor": "Run",
     "JUnit.FileReaderTest.validateCorrectFile.executor": "Run",
     "JUnit.FileReaderTest.validateFileThatDoesNotExistReturnsNothing.executor": "Run",
     "JUnit.FileReaderTest.validateTestFileContainsLines.executor": "Run",
+    "JUnit.FragmentTest.executor": "Run",
+    "JUnit.FragmentTest.name.executor": "Run",
+    "JUnit.GuardGallivantTest.validateFirstProblem.executor": "Run",
+    "JUnit.GuardGallivantTest.validateFirstProblemFixAndCountErrors.executor": "Run",
+    "JUnit.GuardGallivantTest.validateSimulationTall.executor": "Run",
+    "JUnit.GuardGallivantTest.validateSimulationTestData.executor": "Debug",
+    "JUnit.GuardGallivantTest.validateTestData.executor": "Run",
+    "JUnit.GuardMapTest.testClone.executor": "Debug",
+    "JUnit.GuardTest.executor": "Run",
+    "JUnit.GuardTest.testBaseCloneIsEqual.executor": "Run",
+    "JUnit.GuardTest.testOldDoesNotManipulateClone.executor": "Debug",
     "JUnit.HistorianHysteriaTest.name.executor": "Run",
     "JUnit.HistorianHysteriaTest.validateFirstProblem.executor": "Run",
     "JUnit.HistorianHysteriaTest.validateFirstProblemPart2.executor": "Run",
+    "JUnit.HistorianHysteriaTest.validateTestData.executor": "Run",
     "JUnit.HistorianHysteriaTest.validateTestDataPart2.executor": "Run",
     "JUnit.IsASafeErrorCheckedReportTest.executor": "Run",
     "JUnit.IsASafeErrorCheckedReportTest.negativeScenarios.[1] 1, 2, 7, 8, 9.executor": "Debug",
@@ -73,6 +114,8 @@
     "JUnit.IsASafeReportTest.executor": "Run",
     "JUnit.IsASafeReportTest.somethingTest.[3] 7, 6, 4, 2, 1.executor": "Debug",
     "JUnit.IsASafeReportTest.somethingTest.executor": "Run",
+    "JUnit.MoveTrackerTest.testCloneDoesNotAffectOriginal.executor": "Debug",
+    "JUnit.MoveTrackerTest.testCloning.executor": "Debug",
     "JUnit.MullItOverTest.validateFirstProblem.executor": "Run",
     "JUnit.MullItOverTest.validateFirstProblemPart2.executor": "Debug",
     "JUnit.MullItOverTest.validateTestData.executor": "Run",
@@ -80,12 +123,20 @@
     "JUnit.MultToggleTest.testExtractions.executor": "Debug",
     "JUnit.PrintQueueTest.executor": "Run",
     "JUnit.PrintQueueTest.validateFirstProblem.executor": "Run",
+    "JUnit.PrintQueueTest.validateFirstProblemFixAndCountErrors.executor": "Run",
     "JUnit.PrintQueueTest.validateTestData.executor": "Run",
+    "JUnit.PrintQueueTest.validateTestDataFixAndCountErrors.executor": "Debug",
     "JUnit.RedNosedReportsTest.executor": "Run",
     "JUnit.RedNosedReportsTest.validatePart1Data.executor": "Run",
     "JUnit.RedNosedReportsTest.validatePart2Data.executor": "Run",
     "JUnit.RedNosedReportsTest.validatePart2TestData.executor": "Run",
     "JUnit.RedNosedReportsTest.validateTestData.executor": "Run",
+    "JUnit.ResonantCollinearityTest.executor": "Debug",
+    "JUnit.ResonantCollinearityTest.validateFirstProblem.executor": "Run",
+    "JUnit.ResonantCollinearityTest.validateFirstProblemPart2.executor": "Run",
+    "JUnit.ResonantCollinearityTest.validateTestData.executor": "Run",
+    "JUnit.ResonantCollinearityTest.validateTestDataPart2.executor": "Run",
+    "JUnit.ResonantCollinearityTest.validateTestDataPart2_2.executor": "Run",
     "Maven.advent-2024 [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -107,91 +158,113 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/three" />
+      <recent name="$PROJECT_DIR$/src/test/resources/two" />
+      <recent name="$PROJECT_DIR$/src/test/resources/one" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="io.acode.util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.acode.days.nine" />
+      <recent name="io.acode.days.eight" />
+      <recent name="io.acode.days.six" />
       <recent name="io.acode.days.five" />
       <recent name="io.acode.days.four" />
-      <recent name="io.acode.days.three" />
-      <recent name="io.acode.days.two" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrintQueueTest.validateFirstProblemFixAndCountErrors">
-    <configuration name="PrintQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FragmentTest">
+    <configuration name="DefragmentTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.acode.days.five.*" />
+          <option name="PATTERN" value="io.acode.days.nine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.five" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
+      <option name="PACKAGE_NAME" value="io.acode.days.nine" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.nine.DefragmentTest" />
+      <option name="METHOD_NAME" value="name(java.util.List,java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiskFragmenterTest.validatePart2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.nine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.nine" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.nine.DiskFragmenterTest" />
+      <option name="METHOD_NAME" value="validatePart2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiskFragmenterTest.validatePart2TestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.nine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.nine" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.nine.DiskFragmenterTest" />
+      <option name="METHOD_NAME" value="validatePart2TestData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiskFragmenterTest.validatePart2TestData2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.nine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.nine" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.nine.DiskFragmenterTest" />
+      <option name="METHOD_NAME" value="validatePart2TestData2(java.lang.String,long)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FragmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.acode.days.nine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.acode.days.nine" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.nine.FragmentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintQueueTest.validateFirstProblem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FragmentTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.acode.days.five.*" />
+          <option name="PATTERN" value="io.acode.days.nine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.five" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
-      <option name="METHOD_NAME" value="validateFirstProblem" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintQueueTest.validateFirstProblemFixAndCountErrors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.acode.days.five.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.five" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
-      <option name="METHOD_NAME" value="validateFirstProblemFixAndCountErrors" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintQueueTest.validateTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.acode.days.five.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.five" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
-      <option name="METHOD_NAME" value="validateTestData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintQueueTest.validateTestDataFixAndCountErrors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.acode.days.five.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.acode.days.five" />
-      <option name="MAIN_CLASS_NAME" value="io.acode.days.five.PrintQueueTest" />
-      <option name="METHOD_NAME" value="validateTestDataFixAndCountErrors" />
+      <option name="PACKAGE_NAME" value="io.acode.days.nine" />
+      <option name="MAIN_CLASS_NAME" value="io.acode.days.nine.FragmentTest" />
+      <option name="METHOD_NAME" value="name(java.util.List,java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrintQueueTest.validateFirstProblemFixAndCountErrors" />
-        <item itemvalue="JUnit.PrintQueueTest.validateTestDataFixAndCountErrors" />
-        <item itemvalue="JUnit.PrintQueueTest.validateFirstProblem" />
-        <item itemvalue="JUnit.PrintQueueTest.validateTestData" />
-        <item itemvalue="JUnit.PrintQueueTest" />
+        <item itemvalue="JUnit.FragmentTest" />
+        <item itemvalue="JUnit.DiskFragmenterTest.validatePart2TestData" />
+        <item itemvalue="JUnit.DiskFragmenterTest.validatePart2TestData2 (1)" />
+        <item itemvalue="JUnit.DiskFragmenterTest.validatePart2" />
+        <item itemvalue="JUnit.FragmentTest.name" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +332,67 @@
           <line>39</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/five/PrintQueue.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/six/GuardGallivant.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/acode/days/six/GuardTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/acode/days/six/GuardMapTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/six/GuardSimulator.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/eight/ResonantCollinearity.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/acode/days/nine/ExpandTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/acode/days/nine/FragmentTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/nine/AlternateFragment.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/nine/AlternateFragment.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/acode/days/nine/Expand.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="antenna" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

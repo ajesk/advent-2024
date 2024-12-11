@@ -15,7 +15,7 @@ public class RedNosedReportsTest {
 
     @Test
     void validatePart1Data() {
-        RedNosedReports target = new RedNosedReports("two/day2.txt");
+        RedNosedReports target = new RedNosedReports("two/real.txt");
 
         var result = target.findSafeReports();
         assertEquals(218, result);
@@ -31,7 +31,7 @@ public class RedNosedReportsTest {
 
     @Test
     void validatePart2Data() {
-        RedNosedReports target = new RedNosedReports("two/day2.txt");
+        RedNosedReports target = new RedNosedReports("two/real.txt");
 
         var result = target.findErrorCheckedReports();
         assertEquals(290, result);
