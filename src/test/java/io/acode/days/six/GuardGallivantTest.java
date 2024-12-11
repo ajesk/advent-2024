@@ -16,7 +16,7 @@ public class GuardGallivantTest {
 
     @Test
     void validateFirstProblem() {
-        GuardGallivant target = new GuardGallivant("six/day6.txt");
+        GuardGallivant target = new GuardGallivant("six/real.txt");
 
         var result = target.trackGuardLocations();
         assertEquals(5177, result);
@@ -32,7 +32,7 @@ public class GuardGallivantTest {
 
     @Test
     void validateFirstProblemFixAndCountErrors() {
-        GuardGallivant target = new GuardGallivant("six/day6.txt");
+        GuardGallivant target = new GuardGallivant("six/real.txt");
 
         var result = target.part2();
         assertEquals(1686, result);

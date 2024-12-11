@@ -19,7 +19,7 @@ public class AlternateFragment implements Function<List<Integer>, List<Integer>>
             } else {
                 if (currentFileId != -1) {
                     // find free space and swap
-                    int freeIndex = findIndexWithFreeSpace(blocks, fileSize, right + 2);
+                    int freeIndex = findIndexWithFreeSpace(blocks, fileSize, right + 1);
                     if (freeIndex != -1) {
                         swapAtIndices(right + 1, freeIndex, fileSize, blocks);
                     }

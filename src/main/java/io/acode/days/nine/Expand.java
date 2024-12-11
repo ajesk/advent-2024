@@ -15,8 +15,8 @@ public class Expand implements Function<String, List<Integer>> {
         for (String ch : s.split("")) {
             int count = Integer.parseInt(ch);
             Integer nextVal = isEmptyBlock ? -1 : number;
-            if (nextVal != -1) number++;
             isEmptyBlock = !isEmptyBlock;
+            if (nextVal != -1) number++;
 
             for (int i = 0; i < count; i++) {
                 nums.add(nextVal);

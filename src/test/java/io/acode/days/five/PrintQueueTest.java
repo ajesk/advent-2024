@@ -16,7 +16,7 @@ public class PrintQueueTest {
 
     @Test
     void validateFirstProblem() {
-        PrintQueue target = new PrintQueue("five/day5.txt");
+        PrintQueue target = new PrintQueue("five/real.txt");
 
         var result = target.orderPages();
         assertEquals(4774, result);
@@ -32,7 +32,7 @@ public class PrintQueueTest {
 
     @Test
     void validateFirstProblemFixAndCountErrors() {
-        PrintQueue target = new PrintQueue("five/day5.txt");
+        PrintQueue target = new PrintQueue("five/real.txt");
 
         var result = target.fixAndCountErrors();
         assertEquals(6004, result);

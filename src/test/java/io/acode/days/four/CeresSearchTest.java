@@ -16,7 +16,7 @@ public class CeresSearchTest {
 
     @Test
     void validateFirstProblem() {
-        CeresSearch target = new CeresSearch("four/day4.txt");
+        CeresSearch target = new CeresSearch("four/real.txt");
 
         var result = target.findXmas();
         assertEquals(2639, result);
@@ -32,7 +32,7 @@ public class CeresSearchTest {
 
     @Test
     void validateFirstProblemPart2() {
-        CeresSearch target = new CeresSearch("four/day4.txt");
+        CeresSearch target = new CeresSearch("four/real.txt");
 
         var result = target.findMasX();
         assertEquals(2005, result);
